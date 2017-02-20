@@ -56,8 +56,8 @@ time series like prediction of inflation or stock prices over time
 The \gls{ARCH} model can be represented by the following equation:
 
 \begin{align}
-	\epsilon_t^2 = \alpha_0+{\mathlarger{\sum}}_{i=1}^{q}\alpha_i\cdot\epsilon_{t-1}^2\\
-	\alpha_i= i^{th} \mbox{parameter of the conditional heteroskedastic model}
+	\epsilon_t^2 &= \alpha_0+{\mathlarger{\sum}}_{i=1}^{q}\alpha_i\cdot\epsilon_{t-1}^2\\
+	\alpha_i&= i^{th} \mbox{parameter of the conditional heteroskedastic model}
 \end{align}
 
 
@@ -205,10 +205,10 @@ Mathematically, the method attempts to find properties of $f$ without
 evaluating $f$ directly, but by using random samples of $F(\theta, \xi).$
 
 \begin{align}
-	f(\theta)= E_{\xi} [F(\theta, \xi)] \\
-	\xi = \mbox{random variable} \\
-	f(\theta) = \mbox{objective function} \\
-	F(\theta,\xi) = \mbox{ random samples created} \\
+	f(\theta) &= E_{\xi} [F(\theta, \xi)] \\
+	\xi &= \mbox{random variable} \\
+	f(\theta) &= \mbox{objective function} \\
+	F(\theta,\xi) &= \mbox{ random samples created} \\
 \end{align}
 
 A few examples of the Stochastic-Optimizing method are
