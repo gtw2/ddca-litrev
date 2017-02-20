@@ -233,14 +233,13 @@ and transition equations define how the states evolve over time.
 The model is represented with the following equations:
 
 \begin{align}
-	y_t =a_{0,0} + a_{0,1} S_t + (a_{1,0}+a_{1,1} S_t) y_{t-1} +e_i \\
-	P_{ij}=P(S_t=j | S_{t-1} = i) \\
-	y_t = \mbox{observable random variable} \\
-	a = \mbox{drift term constant} \\
-	S_t = \mbox{hidden state variable} \\ 
-	e_i = \mbox{error} \\
-	P_{ij} = \mbox{probability of a transition in the hidden state variable} \\ 
-	
+	y_t &=a_{0,0} + a_{0,1} S_t + (a_{1,0}+a_{1,1} S_t) y_{t-1} +e_i \\
+	P_{ij}&=P(S_t=j | S_{t-1} = i) \\
+	y_t &= \mbox{observable random variable} \\
+	a &= \mbox{drift term constant} \\
+	S_t &= \mbox{hidden state variable} \\ 
+	e_i &= \mbox{error} \\
+	P_{ij} &= \mbox{probability of a transition in the hidden state variable}  
 \end{align}
 
 
